@@ -6,7 +6,7 @@ import java.util.List;
 
 public class DurationOfLongestPitStop {
 
-    public static void findLongestPitStop(List<Pitstop> pitstops) {
+    public static Pitstop findLongestPitStop(List<Pitstop> pitstops) {
 
         Pitstop longestPitStop = pitstops.get(0);
 
@@ -16,6 +16,6 @@ public class DurationOfLongestPitStop {
             }
         }
 
-
+        return longestPitStop;
     }
 }
