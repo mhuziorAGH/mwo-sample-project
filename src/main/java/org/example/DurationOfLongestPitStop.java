@@ -2,9 +2,7 @@ package org.example;
 
 import java.util.List;
 
-
 //czas trwania najdłuższego pit stopu wraz z numerem kierowcy
-
 
 public class DurationOfLongestPitStop {
 
